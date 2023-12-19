@@ -36,3 +36,4 @@ You can access the deployed application with the GitHub Pages link:
 [https://yukitoshi12345.github.io/Work-Day-Scheduler/](https://yukitoshi12345.github.io/Work-Day-Scheduler/)
 
 ## License
+This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/Work-Day-Scheduler/blob/main/LICENSE).
