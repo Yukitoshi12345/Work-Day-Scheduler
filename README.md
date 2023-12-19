@@ -4,6 +4,7 @@ Take control of your day with this hourly calendar planner! Each hour from 9am t
 ## Table of Contents
 
 - [Objectives](#objectives)
+- [Technologies Used](#technologies-used)
 - [Video](#video)
 - [Explanation of Video](#explanation-of-video)
 - [Output](#output)
@@ -19,6 +20,13 @@ The following criteria has to be met:
 - Click any block to effortlessly add an event and fill in the details.
 - Local storage ensures your plans stays put, even when you refresh the page.
 - Your crafted schedule won;t disappear when the page refreshes.
+
+## Technologies Used
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- Moment js
 
 
 ## Video
