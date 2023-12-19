@@ -1,4 +1,5 @@
 # Work Day Scheduler
+Take control of your day with this hourly calendar planner! Each hour from 9am to 5pm is visualised for easy scheduling. Past blocks are subtle gray, the present glows red, and future hours await in vibrant green. Save events in any block and clear them all with a single click.
 
 ## Table of Contents
 
