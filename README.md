@@ -29,5 +29,10 @@ The following criteria has to be met:
 ## Output
 
 ## Installation
+The project was uploaded to [GitHub](https://github.com/) at the following repository:
+[https://github.com/yukitoshi12345/Work-Day-Scheduler](https://github.com/yukitoshi12345/Work-Day-Scheduler)
+
+You can access the deployed application with the GitHub Pages link:
+[https://yukitoshi12345.github.io/Work-Day-Scheduler/](https://yukitoshi12345.github.io/Work-Day-Scheduler/)
 
 ## License
