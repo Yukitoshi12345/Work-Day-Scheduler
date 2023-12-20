@@ -56,19 +56,15 @@ function saveButton() {
 
 
 // Retrieve existing items from local storage, if available, i.e. this is how the save button works, where the text won't disappear if refreshed.
-$("#9 .description").val(localStorage.getItem("9"));
-$("#10 .description").val(localStorage.getItem("10"));
-$("#11 .description").val(localStorage.getItem("11"));
-$("#12 .description").val(localStorage.getItem("12"));
-$("#13 .description").val(localStorage.getItem("13"));
-$("#14 .description").val(localStorage.getItem("14"));
-$("#15 .description").val(localStorage.getItem("15"));
-$("#16 .description").val(localStorage.getItem("16"));
-$("#17 .description").val(localStorage.getItem("17"));
-
+function getDescriptions() {
+    for (let i = 9; i <= 17; i++) {
+      $(`#${i} .description`).val(localStorage.getItem(i.toString()));
+    }
+  }
 
 // Run the functions
 displayTime();
 colourHourlyChange();
 saveButton();
+getDescriptions();
 setInterval(displayTime, 1000);
