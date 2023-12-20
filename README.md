@@ -4,7 +4,7 @@ Take control of your day with this hourly calendar planner! Each hour from 9am t
 ## Table of Contents
 
 - [Objectives](#objectives)
-- [Technologies Used](#technologies-used)
+- [Technologies And Tools Used](#technologies-and-tools-used)
 - [Video](#video)
 - [Explanation of Video](#explanation-of-video)
 - [Output](#output)
@@ -21,18 +21,17 @@ The following criteria has to be met:
 - Local storage ensures your plans stays put, even when you refresh the page.
 - Your crafted schedule won't disappear when the page refreshes.
 
-## Technologies Used
+## Technologies and Tools Used
 - HTML
 - CSS
 - JavaScript
 - Bootstrap
-- Moment js
+- Day js
 
 
 ## Video
 
 
-## Explanation of Video
 
 ## Output
 
