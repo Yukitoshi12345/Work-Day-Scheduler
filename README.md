@@ -19,7 +19,7 @@ The following criteria has to be met:
 - Colour-coded timeblocks instantly shows what's been, what's happening, and what's to come.
 - Click any block to effortlessly add an event and fill in the details.
 - Local storage ensures your plans stays put, even when you refresh the page.
-- Your crafted schedule won;t disappear when the page refreshes.
+- Your crafted schedule won't disappear when the page refreshes.
 
 ## Technologies Used
 - HTML
