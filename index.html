@@ -19,6 +19,8 @@
       crossorigin="anonymous"
     />
 
+    <!-- fas fa-save: grabbed from fontawesome -->
+
     <!--------------Adding Google Fonts-------------->
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
@@ -62,21 +64,34 @@
     <!-- px-5 is 20px of padding on both the left and right of element -->
     <div class="container-lg px-5">
 
-      <!-- 09:00 slot -->
+      <!-------------- 09:00 slot -------------->
       <!-- row is a bootstrap inside container alongside with styling css. time-block is css styling -->
       <div id="hour-9" class = "row time-block">
+
         <!-- col-2: a bootstrap; on small screens, the column will occupy 2 out of 12 columns in its parent row. -->
         <!-- col-md-1: a bootstrap; on medium-sized screen, the column will occupy 1 out of 12 columns in its parent row. -->
         <!-- hour: it is not a bootstrap, but is a css styling -->
         <!-- text-center: a bootstrap; centers the text content within the column horizontally-->
         <!-- py-3: a bootstrap; adds 1 rem (16px) of padding to the top and the bottom of the column for visual spacing. -->
         <div class="col-2 col-md-1 hour text-center py-3">09:00AM</div>
+
+        <!-- col-8: a bootstrap; on small screens, the column will occupy 8 out of 12 columns in its parent row. -->
+        <!-- col-md-10: a bootstrap; on medium-sized screen, the column will occupy 10 out of 12 columns in its parent row. -->
+        <!-- description: it is not a bootstrap, but is a css styling. -->
+        <!-- row = 3: displays 3 lines of text even if no text is entered yet.-->
         <textarea id='text-09' class="col-8 col-md-10 description" rows = "3"> </textarea>
+
+        <!-- btn: a bootstrap; default styling for buttons including background colour, border, text-colour, padding, hover effects, responsive across different screens. -->
+        <!-- col-2: a bootstrap; on small screens, the column will occupy 2 out of 12 columns in its parent row. -->
+        <!-- col-md-1: a bootstrap; on medium-sized screen, the column will occupy 1 out of 12 columns in its parent row. -->
         <button class="btn saveBtn col-2 col-md-1" aria-label="save">
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-      <!-- 10 = 10:00AM -->
+
+      
+      
+      <!-------------- 10:00 slot -------------->
       <div id="hour-10" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">10:00AM</div>
         <textarea id='text-10' class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -84,7 +99,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-      <!-- 11 = 11:00AM -->
+
+      <!-------------- 11:00 slot -------------->
       <div id="hour-11" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">11:00AM</div>
         <textarea id='text-11' class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -92,7 +108,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-      <!-- 12 = 12:00PM -->
+
+      <!-------------- 12:00 slot -------------->
       <div id="hour-12" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">12:00PM</div>
         <textarea id='text-12' class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -100,7 +117,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-      <!-- 13 = 1:00PM -->
+
+      <!-------------- 13:00 slot -------------->
       <div id="hour-13" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">1:00PM</div>
         <textarea id='text-13' class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -108,7 +126,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-      <!-- 14 = 2:00PM -->
+
+      <!-------------- 14:00 slot -------------->
       <div id="hour-14" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">2:00PM</div>
         <textarea id='text-14' class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -116,7 +135,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-      <!-- 15 = 3:00PM -->
+
+      <!-------------- 15:00 slot -------------->
       <div id="hour-15" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">3:00PM</div>
         <textarea id='text-15'class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -124,7 +144,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-      <!-- 16 = 4:00PM -->
+
+      <!-------------- 16:00 slot -------------->
       <div id="hour-16" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">4:00PM</div>
         <textarea id='text-16' class="col-8 col-md-10 description" rows="3"> </textarea>
@@ -132,7 +153,8 @@
           <i class="fas fa-save" aria-hidden="true"></i>
         </button>
       </div>
-      <!-- 17 = 5:00PM -->
+
+      <!-------------- 17:00 slot -------------->
       <div id="hour-17" class="row time-block">
         <div class="col-2 col-md-1 hour text-center py-3">5:00PM</div>
         <textarea id='text-17' class="col-8 col-md-10 description" rows="3"> </textarea>
