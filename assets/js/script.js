@@ -9,6 +9,8 @@
 var currentHourSlot = dayjs().format('H');
 var currentDayEl = $('#currentDay');
 
+
+
 // This function is to get the real time
 function displayTime() {
     var currentLocalTime = dayjs().format('dddd, MMM DD, YYYY hh:mm:ss a');
@@ -42,12 +44,13 @@ function colourHourlyChange() {
         }
 
     });
+}
 
 // Adding a listener for click events on the save button.
 function saveButton() {
-    // Find surrounding description elements using jQuery selectors, i..e the value i.e. text, and the key, i.e. time.
+    // Find surrounding description elements using jQuery selectors, i.e the value i.e. text, and the key, i.e. time.
     $(".saveBtn").on("click", function() {
-        var value = $(this).sibling("description").val();
+        var value = $(this).siblings(".description").val();
         var key = $(this).parent().attr("id");
 
         // Save the text in the local storage
@@ -56,9 +59,19 @@ function saveButton() {
 }
 
 
+// Retrieve existing items from local storage, if available, i.e. this is how the save button works, where the text won't disappear if refreshed.
+$("#9 .description").val(localStorage.getItem("9"));
+$("#10 .description").val(localStorage.getItem("10"));
+$("#11 .description").val(localStorage.getItem("11"));
+$("#12 .description").val(localStorage.getItem("12"));
+$("#13 .description").val(localStorage.getItem("13"));
+$("#14 .description").val(localStorage.getItem("14"));
+$("#15 .description").val(localStorage.getItem("15"));
+$("#16 .description").val(localStorage.getItem("16"));
+$("#17 .description").val(localStorage.getItem("17"));
 
-}
 
+// Run the functions
 displayTime();
 colourHourlyChange();
 saveButton();
