@@ -3,6 +3,7 @@ Take control of your day with this hourly calendar planner! Each hour from 9am t
 
 ## Table of Contents
 
+- [User Story](#user-story)
 - [Objectives](#objectives)
 - [Technologies And Tools Used](#technologies-and-tools-used)
 - [Video](#video)
@@ -10,6 +11,14 @@ Take control of your day with this hourly calendar planner! Each hour from 9am t
 - [Output](#output)
 - [Installation](#installation)
 - [License](#license)
+
+## User Story
+
+```md
+AS AN employee with a busy schedule
+I WANT to add important events to a daily planner
+SO THAT I can manage my time effectively
+```
 
 ## Objectives
 The following criteria has to be met:
