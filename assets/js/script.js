@@ -52,7 +52,7 @@ function saveButton() {
 
         // Save the text in the local storage
         localStorage.setItem(key, value);
-    });
+    })
 }
 
 

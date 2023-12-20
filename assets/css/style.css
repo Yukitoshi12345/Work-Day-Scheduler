@@ -1,8 +1,16 @@
+/* ================================= 
+ Global rules and element rules
+==================================== */
+
+
+/* ---------- Body ---------- */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
+/* ---------- Text Area ---------- */
 textarea {
   background: transparent;
   border: none;
@@ -16,22 +24,24 @@ textarea {
   white-space: pre-wrap;
 }
 
+/* ---------- Time Blocks ---------- */
 .time-block {
   border-radius: 15px;
 }
-
 
 .row {
   border-top: 1px solid white;
 }
 
 
+/* ---------- Time Slots ---------- */
 .hour {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
 }
 
+/* ---------- Colours for past, present, and future block ---------- */
 .past {
   background-color: #d3d3d3;
   color: white;
@@ -47,6 +57,7 @@ textarea {
   color: white;
 }
 
+/* ---------- Save Button ---------- */
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
