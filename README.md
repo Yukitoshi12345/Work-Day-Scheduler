@@ -40,7 +40,7 @@ The following criteria has to be met:
 
 ## Video
 
-
+![](assets/images-videos/Work-Day-Scheduler-Video.gif)
 
 ## Output
 
