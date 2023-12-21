@@ -44,6 +44,8 @@ The following criteria has to be met:
 
 ## Output
 
+The Work Day Scheduler plans your day with ease: visualise your schedule, add events, and keep it all saved, even when you refresh the page.
+
 ## Installation
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/yukitoshi12345/Work-Day-Scheduler](https://github.com/yukitoshi12345/Work-Day-Scheduler)
