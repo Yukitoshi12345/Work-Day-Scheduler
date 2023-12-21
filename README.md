@@ -6,6 +6,7 @@ Take control of your day with this hourly calendar planner! Each hour from 9am t
 - [User Story](#user-story)
 - [Objectives](#objectives)
 - [Technologies And Tools Used](#technologies-and-tools-used)
+- [Screenshot](#screenshot)
 - [Video](#video)
 - [Explanation of Video](#explanation-of-video)
 - [Output](#output)
@@ -37,6 +38,9 @@ The following criteria has to be met:
 - Bootstrap
 - Day js
 
+## Screenshot
+
+![](assets/images-videos/Work-Day-Scheduler-Image.png)
 
 ## Video
 
