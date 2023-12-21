@@ -10,7 +10,7 @@
 var currentHourSlot = dayjs().format('H');
 var currentDayEl = $('#currentDay');
 
-// This function is to get the real time
+// This function is to get the real time.
 function displayTime() {
     var currentLocalTime = dayjs().format('dddd, MMM DD, YYYY hh:mm:ss a');
     currentDayEl.text(currentLocalTime);
