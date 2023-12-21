@@ -51,11 +51,9 @@ $(document).ready(function () {
         localStorage.setItem(key, value);
     });
 
-    // Retrieve existing items from local storage, if available, i.e. this is how the save button works, where the text won't disappear if refreshed.
     for (let i = 9; i <= 17; i++) {
-        $(`#hour-${i} .description`).val(localStorage.getItem(i.toString()));
-      };
-
+        $("#hour-" + i + " .description").val(localStorage.getItem("hour-" + i));
+    };
 });
 
 displayTime();
