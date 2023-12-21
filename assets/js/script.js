@@ -10,7 +10,7 @@
 var currentHourSlot = dayjs().format('H');
 var currentDayEl = $('#currentDay');
 
-// This function is to get the real time.
+// This function is to get the real time
 function displayTime() {
     var currentLocalTime = dayjs().format('dddd, MMM DD, YYYY hh:mm:ss a');
     currentDayEl.text(currentLocalTime);
@@ -53,7 +53,7 @@ $(document).ready(function () {
 
     // Retrieve existing items from local storage, if available, i.e. this is how the save button works, where the text won't disappear if refreshed.
     for (let i = 9; i <= 17; i++) {
-        $(`#${i} .description`).val(localStorage.getItem(i.toString()));
+        $(`#hour-${i} .description`).val(localStorage.getItem(i.toString()));
       };
 
 });
