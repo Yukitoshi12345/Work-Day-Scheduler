@@ -16,11 +16,12 @@ function displayTime() {
     currentDayEl.text(currentLocalTime);
   }
 
-// This function is to show the colour blocks dependent on if it is past/present/future hour block
-function colourHourlyChange() {
+$(document).ready(function () {
+
+    // Shows the colour blocks dependent on if it is past/present/future hour block
     $('.time-block').each(function() {
         // parseInt function converts a string value to an integer.
-        var timeHourSlot = parseInt($(this).attr("id"));
+        var timeHourSlot = parseInt($(this).attr('id').split('-')[1]);
         console.log(timeHourSlot);
 
         if (currentHourSlot < timeHourSlot) {
@@ -38,33 +39,24 @@ function colourHourlyChange() {
             $(this).addClass("present");
             $(this).removeClass("past future");
         }
-
     });
-}
 
-// Adding a listener for click events on the save button.
-function saveButton() {
+    // Adding a listener for click events.
     // Find surrounding description elements using jQuery selectors, i.e the value i.e. text, and the key, i.e. time.
     $(".saveBtn").on("click", function() {
         var value = $(this).siblings(".description").val();
         var key = $(this).parent().attr("id");
-
+    
         // Save the text in the local storage
         localStorage.setItem(key, value);
-    })
-}
+    });
 
-
-// Retrieve existing items from local storage, if available, i.e. this is how the save button works, where the text won't disappear if refreshed.
-function getDescriptions() {
+    // Retrieve existing items from local storage, if available, i.e. this is how the save button works, where the text won't disappear if refreshed.
     for (let i = 9; i <= 17; i++) {
-      $(`#${i} .description`).val(localStorage.getItem(i.toString()));
-    }
-  }
+        $(`#${i} .description`).val(localStorage.getItem(i.toString()));
+      };
 
-// Run the functions
+});
+
 displayTime();
-colourHourlyChange();
-saveButton();
-getDescriptions();
 setInterval(displayTime, 1000);
