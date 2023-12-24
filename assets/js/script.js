@@ -51,7 +51,7 @@ $(document).ready(function () {
         localStorage.setItem(key, value);
     });
 
-    for (let i = 9; i <= 17; i++) {
+    for (var i = 9; i <= 17; i++) {
         $("#hour-" + i + " .description").val(localStorage.getItem("hour-" + i));
     };
 });
