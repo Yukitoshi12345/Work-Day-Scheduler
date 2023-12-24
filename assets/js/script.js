@@ -57,4 +57,5 @@ $(document).ready(function () {
 });
 
 displayTime();
+// 1000ms = 1 second. setInterval is always in ms.
 setInterval(displayTime, 1000);
