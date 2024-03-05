@@ -1,4 +1,5 @@
 # Work Day Scheduler
+
 Take control of your day with this hourly calendar planner! Each hour from 9am to 5pm is visualised for easy scheduling. Past blocks are subtle gray, the present glows red, and future hours await in vibrant green. Save events in any block and clear them all with a single click.
 
 ## Table of Contents
@@ -21,16 +22,18 @@ SO THAT I can manage my time effectively
 ```
 
 ## Objectives
+
 The following criteria has to be met:
 
 - Upon opening, the planner highlights the current day at the top for quick reference.
-- Visualise your day with standard business hours (9am-5pm) clearly  segmented into timeblocks.
+- Visualise your day with standard business hours (9am-5pm) clearly segmented into timeblocks.
 - Colour-coded timeblocks instantly shows what's been, what's happening, and what's to come.
 - Click any block to effortlessly add an event and fill in the details.
 - Local storage ensures your plans stays put, even when you refresh the page.
 - Your crafted schedule won't disappear when the page refreshes.
 
 ## Technologies Used
+
 - HTML
 - CSS
 - JavaScript
@@ -46,6 +49,7 @@ The following criteria has to be met:
 The Work Day Scheduler plans your day with ease: visualise your schedule, add events, and keep it all saved, even when you refresh the page.
 
 ## Installation
+
 The project was uploaded to [GitHub](https://github.com/) at the following repository:
 [https://github.com/yukitoshi12345/Work-Day-Scheduler](https://github.com/yukitoshi12345/Work-Day-Scheduler)
 
@@ -53,6 +57,7 @@ You can access the deployed application with the GitHub Pages link:
 [https://yukitoshi12345.github.io/Work-Day-Scheduler/](https://yukitoshi12345.github.io/Work-Day-Scheduler/)
 
 ## Central Grader Comments
+
 Grade: 100/100
 
 Marker 1 - Thank you for the submission, congratulations on an outstanding job with this week’s challenge! You successfully demonstrated your ability to build a dynamic day planner that’s powered by your Javascript code!
@@ -63,18 +68,18 @@ You also did a wonderful job making descriptive commits to your repo and comment
 
 Keep up the hard work, and happy coding!
 
-- Respectfully, Central Grader ID. 
+- Respectfully, Central Grader ID.
 
 Marker 2 - You have demonstrated an impressive proficiency in swiftly grasping and leveraging Third Party APIs to streamline the codebase. By seamlessly integrating DayJS, you have effectively managed dates and time, ensuring accurate functionality throughout your codebase. Additionally, your skillful use of jQuery has facilitated seamless DOM manipulation and event handling, greatly enhancing the interactivity and responsiveness of your application. The adept utilization of DayJS and jQuery showcases the immense benefits they bring to your work.
 
 Moreover, you have showcased your strong foundation in JavaScript and Web APIs, employing techniques such as for loops, if statements, switch cases, and local storage manipulation to further elevate your work. The seamless integration of third-party resources, Web API, and native JavaScript throughout your project is commendable, reflecting your expertise and versatility.
 
-Furthermore, the detailed pseudocode & descriptive README.md further elevates the repository's accessibility. You've effectively  communicated the capabilities of the workday scheduler, and your skills as a programmer. Well done!
+Furthermore, the detailed pseudocode & descriptive README.md further elevates the repository's accessibility. You've effectively communicated the capabilities of the workday scheduler, and your skills as a programmer. Well done!
 
 Your delivery of an exceptional frontend application showcases your talent and dedication to users, developers, and potential employers alike. Keep up the outstanding work, and continue honing your skills!
 
 - EE, Centralized Grading
 
 ## License
-This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/Work-Day-Scheduler/blob/main/LICENSE).
 
+This project is licensed under the [MIT License](https://github.com/Yukitoshi12345/Work-Day-Scheduler/blob/main/LICENSE).

@@ -7,53 +7,50 @@
 //.text() change its content.
 
 // Declaring Variables
-var currentHourSlot = dayjs().format('H');
-var currentDayEl = $('#currentDay');
+var currentHourSlot = dayjs().format("H");
+var currentDayEl = $("#currentDay");
 
 // This function is to get the real time
 function displayTime() {
-    var currentLocalTime = dayjs().format('dddd, MMM DD, YYYY hh:mm:ss a');
-    currentDayEl.text(currentLocalTime);
-  }
+  var currentLocalTime = dayjs().format("dddd, MMM DD, YYYY hh:mm:ss a");
+  currentDayEl.text(currentLocalTime);
+}
 
 $(document).ready(function () {
+  // Shows the colour blocks dependent on if it is past/present/future hour block
+  $(".time-block").each(function () {
+    // parseInt function converts a string value to an integer.
+    var timeHourSlot = parseInt($(this).attr("id").split("-")[1]);
+    console.log(timeHourSlot);
 
-    // Shows the colour blocks dependent on if it is past/present/future hour block
-    $('.time-block').each(function() {
-        // parseInt function converts a string value to an integer.
-        var timeHourSlot = parseInt($(this).attr('id').split('-')[1]);
-        console.log(timeHourSlot);
+    if (currentHourSlot < timeHourSlot) {
+      $(this).addClass("future");
+      $(this).removeClass("past present");
+    } else if (currentHourSlot > timeHourSlot) {
+      $(this).addClass("past");
+      $(this).removeClass("present future");
+    }
 
-        if (currentHourSlot < timeHourSlot) {
-            $(this).addClass("future");
-            $(this).removeClass("past present");
-        }
+    // else currentHourSlot === timeHourSlot:
+    else {
+      $(this).addClass("present");
+      $(this).removeClass("past future");
+    }
+  });
 
-        else if (currentHourSlot > timeHourSlot) {
-            $(this).addClass("past");
-            $(this).removeClass("present future");
-        }
+  // Adding a listener for click events.
+  // Find surrounding description elements using jQuery selectors, i.e the value i.e. text, and the key, i.e. time.
+  $(".saveBtn").on("click", function () {
+    var value = $(this).siblings(".description").val();
+    var key = $(this).parent().attr("id");
 
-        // else currentHourSlot === timeHourSlot:
-        else {
-            $(this).addClass("present");
-            $(this).removeClass("past future");
-        }
-    });
+    // Save the text in the local storage
+    localStorage.setItem(key, value);
+  });
 
-    // Adding a listener for click events.
-    // Find surrounding description elements using jQuery selectors, i.e the value i.e. text, and the key, i.e. time.
-    $(".saveBtn").on("click", function() {
-        var value = $(this).siblings(".description").val();
-        var key = $(this).parent().attr("id");
-    
-        // Save the text in the local storage
-        localStorage.setItem(key, value);
-    });
-
-    for (var i = 9; i <= 17; i++) {
-        $("#hour-" + i + " .description").val(localStorage.getItem("hour-" + i));
-    };
+  for (var i = 9; i <= 17; i++) {
+    $("#hour-" + i + " .description").val(localStorage.getItem("hour-" + i));
+  }
 });
 
 displayTime();
