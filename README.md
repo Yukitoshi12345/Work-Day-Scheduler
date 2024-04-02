@@ -1,11 +1,13 @@
-# Work Day Scheduler
+![Badge](https://img.shields.io/badge/License-MIT-yellow.svg) ![HTML](https://img.shields.io/badge/HTML-blue) ![CSS](https://img.shields.io/badge/CSS-red) ![JavaScript](https://img.shields.io/badge/JavaScript-yellow) ![Bootstrap](https://img.shields.io/badge/Bootstrap-purple) ![JQuery](https://img.shields.io/badge/JQuery-green) ![Day.js](https://img.shields.io/badge/Day.js-orange)
 
-Take control of your day with this hourly calendar planner! Each hour from 9am to 5pm is visualised for easy scheduling. Past blocks are subtle gray, the present glows red, and future hours await in vibrant green. Save events in any block and clear them all with a single click.
+<h1 align = "center"> Work Day Scheduler</h1>
+
+Take control of your day with this hourly calendar planner! Each hour from 9am to 5pm is visualised for easy scheduling. Past blocks are subtle grey, the present glows red, and future hours await in vibrant green. Save events in any block and clear them all with a single click.
 
 ## Table of Contents
 
 - [User Story](#user-story)
-- [Objectives](#objectives)
+- [Acceptance Criteria](#acceptance-criteria)
 - [Technologies Used](#technologies-used)
 - [Video](#video)
 - [Output](#output)
@@ -21,16 +23,23 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-## Objectives
+## Acceptance Criteria
 
-The following criteria has to be met:
-
-- Upon opening, the planner highlights the current day at the top for quick reference.
-- Visualise your day with standard business hours (9am-5pm) clearly segmented into timeblocks.
-- Colour-coded timeblocks instantly shows what's been, what's happening, and what's to come.
-- Click any block to effortlessly add an event and fill in the details.
-- Local storage ensures your plans stays put, even when you refresh the page.
-- Your crafted schedule won't disappear when the page refreshes.
+```md
+GIVEN I am using a daily planner to create a schedule
+WHEN I open the planner
+THEN the current day is displayed at the top of the calendar
+WHEN I scroll down
+THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
+WHEN I view the timeblocks for that day
+THEN each timeblock is color coded to indicate whether it is in the past, present, or future
+WHEN I click into a timeblock
+THEN I can enter an event
+WHEN I click the save button for that timeblock
+THEN the text for that event is saved in local storage
+WHEN I refresh the page
+THEN the saved events persist
+```
 
 ## Technologies Used
 
