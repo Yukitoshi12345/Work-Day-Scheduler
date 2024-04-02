@@ -51,7 +51,7 @@ THEN the saved events persist
 
 ## Video
 
-![](assets/images-videos/Work-Day-Scheduler-Video.mp4)
+![](assets/videos/Work-Day-Scheduler-Video.gif)
 
 ## Output
 
