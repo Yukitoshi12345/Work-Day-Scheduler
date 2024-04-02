@@ -73,7 +73,7 @@ Marker 1 - Thank you for the submission, congratulations on an outstanding job w
 
 Nice work deploying the site and submitting the correct links, both your repo and live site look great. Excellent job getting the current date and time to display! Also, nice work ensuring your time blocks change color based on the time of day - you did a nice job making the site polished and professional. Additionally, the save buttons look great, fantastic job getting the local storage up and running.
 
-You also did a wonderful job making descriptive commits to your repo and commenting out quality notes in your code! These are great habits to develop early in your coding journey. Your Readme file is also well done- your description is well written and the link to the deployed site works well. With this being said Yukitoshi, your efforts and attention to detail with this day planner have not gone unnoticed.
+You also did a wonderful job making descriptive commits to your repo and commenting out quality notes in your code! These are great habits to develop early in your coding journey. Your Readme file is also well done - your description is well written and the link to the deployed site works well. With this being said Yukitoshi, your efforts and attention to detail with this day planner have not gone unnoticed.
 
 Keep up the hard work, and happy coding!
 
